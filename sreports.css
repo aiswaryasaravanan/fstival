@@ -1,0 +1,61 @@
+    #u1
+	{
+		font-variant:small-caps;
+		font-size:19px;
+		color:navy;
+	}
+	
+	.nav-pills > li >a
+	   {
+		   color:navy;
+	   }
+	
+	
+	.a1
+	{
+		color:white;
+		
+	}
+	a.a1:hover
+	{
+		
+		color:black;
+	}
+	
+
+	
+
+    #t1
+    {
+		border-collapse:separate;
+		border-spacing:4px 25px;
+		color:black;
+		min-width:300px;
+		min-height:150px;
+		margin:10px; 
+		-webkit-box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+		border-color:black;
+	}
+	td
+	{
+		font-variant:small-caps;
+		text-align:center;
+		color:blue;
+		font-size:20px;
+		width:150px;
+		
+	}
+	
+	
+    th 
+	{
+		color: navy;
+		font-size:18px;
+		width:100px;
+		font-variant:small-caps;
+		text-align:center;
+		padding:10px;
+    }
+
+    
+ 

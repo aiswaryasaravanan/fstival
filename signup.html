@@ -1,0 +1,87 @@
+<html>
+
+   <head>
+       <title>SIGNUP</title>
+	   
+	   <script type="text/javascript">
+	      function validate()
+		  {
+		     if(document.myform.name.value=="")
+			 {
+			    alert("Please provide your name!");
+				document.myform.name.focus();
+				return false;
+			 }
+			 if(document.myform.regno.value=="")
+			 {
+			    alert("Please provide your regNo!");
+				document.myform.regno.focus();
+				return false;
+			 }
+			 if(document.myform.phoneno.value==""||
+			 isNaN(document.myform.phoneno.value)||
+			 document.myform.phoneno.value.length!=10)
+			 {
+			    alert("Please provide your correct phoneNo!");
+				document.myform.phoneno.focus();
+				return false;
+			 }
+		     if(document.myform.email.value==""||
+			 document.myform.email.value.length<10)
+			 {
+			    alert("Please provide your email!");
+				document.myform.email.focus();
+				return false;
+			 }
+			 if(document.myform.password.value=="")
+			 {
+			    alert("Please provide your password!");
+				document.myform.password.focus();
+				return false;
+			 }
+		  }
+		  
+		  function page1(){ window.location = "launch.html";}
+		  function page2(){ window.location = "#";}
+		  
+	   </script>
+	       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		   <link rel="stylesheet" href="signup.css">
+		   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+   
+   
+     
+   <body style="background-image:url(s12.jpg);" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 
+
+	      <div class="c1">
+		      <form>
+		        <input id="c2" class="s1" type="button" value="LOGIN"  onClick="page1();"/>
+		        <input id="c3" class="s1" type="button" value="SIGNUP" onClick="page2();"/>
+		      <!--  <input id="c4" class="s1" type="button" value="ADMIN" onClick="page3();"/>-->
+	         </form>
+			 
+			 <form method="post" action="signup_p.php" name="myform">
+		   
+	        <input id="c1" type="text" maxlength="40" placeholder="name" size="36" name="name"/>
+			
+			<input id="c1" type="text" maxlength="40" placeholder="regNo" size="36" name="regNo"/>
+			
+			<input id="c1" type="text" maxlength="40" placeholder="phoneNo" size="36" name="phoneNo"/>
+		   
+		   <input id="c1" type="text" maxlength="40" placeholder="email" size="36" name="email"/>
+		   
+		    <input id="c1" type="password" maxlength="20" placeholder="Password" size="36" name="password" />
+		     
+		    <input id="c1" type="submit" name="submit" value="Signup" />
+		   
+	    </form>
+		  </div>
+		 
+ 
+   </body>
+</html>

@@ -1,0 +1,233 @@
+<!doctype html>
+
+ 
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>Sudoku</title>
+
+    <meta name="Description" content="Sudoku is a logic-based, combinatorial puzzle. The objective is to fill a 9Ã—9 grid with digits so...">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link href="http://1.envato-static.com/assets/fullscreen_preview-2dff58760ddd3fb5acb3540e65f6ef43.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/icons/codecanyon.net/apple-touch-icon-144x144-precomposed.png" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/icons/codecanyon.net/apple-touch-icon-114x114-precomposed.png" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/icons/codecanyon.net/apple-touch-icon-72x72-precomposed.png" />
+
+    <link rel="apple-touch-icon-precomposed" href="/icons/codecanyon.net/apple-touch-icon-precomposed.png" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+    <script>window.jQuery || document.write("<script src='http://3.envato-static.com/assets/lib/jquery-1.8.1.min-da0866090343e2cef3f789ab7482744a.js'><\/script>")</script>
+
+	<style>
+		h1.h1{
+			font-size:30px;
+		}
+	</style> 
+
+    <script>
+
+        //function to fix height of iframe!
+
+        var calcHeight = function () {
+
+            var headerDimensions = $('#header-bar').height();
+
+            $('#preview-frame').height($(window).height() - headerDimensions);
+
+        }
+
+ 
+
+        $(document).ready(function () {
+
+            calcHeight();
+
+            $('#header-bar a.close').mouseover(function () {
+
+                $('#header-bar a.close').addClass('activated');
+
+            }).mouseout(function () {
+
+                $('#header-bar a.close').removeClass('activated');
+
+            });
+
+        });
+
+ 
+
+        $(window).resize(function () {
+
+            calcHeight();
+
+        }).load(function () {
+
+            calcHeight();
+
+        });
+
+    </script>
+
+    <!-- JAVASCRIPT FOR AND GOOGLE ANALYTICS -->
+
+ 
+
+    <script>
+
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-11834194-12']);
+
+        _gaq.push(['_trackPageLoadTime']);
+
+        _gaq.push(['_trackPageview']);
+
+ 
+
+        _gaq.push(['b._setAccount', 'UA-11834194-36']);
+
+        _gaq.push(['b._trackPageLoadTime']);
+
+        _gaq.push(['b._trackPageview']);
+
+ 
+
+ 
+
+        (function () {
+
+            var ga = document.createElement('script');
+
+            ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+            ga.setAttribute('async', 'true');
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+
+    </script>
+
+ 
+
+    <!-- END JAVASCRIPT -->
+
+ 
+
+    <meta content="" name="WT.si_n" />
+
+    <meta content="" name="WT.si_x" />
+
+    <meta content="" name="WT.si_cs" />
+
+ 
+
+    <script type="text/javascript">var NREUMQ = NREUMQ || []; NREUMQ.push(["mark", "firstbyte", new Date().getTime()]);</script>
+
+</head>
+
+<body>
+
+    <div id="header-bar">
+
+ 	<h1 class=h1>SUDOKU</h1>
+
+    </div>
+
+    <iframe id="preview-frame" src="http://codeblog.cz/sudoku/" name="preview-frame" frameborder="0" noresize="noresize"></iframe>
+
+    <!-- START OF SmartSource Data Collector TAG v10.2.0 -->
+
+    <!-- Copyright (c) 2012 Webtrends Inc.  All rights reserved. -->
+
+    <script>
+
+        window.webtrendsAsyncInit = function () {
+
+            var dcs = new Webtrends.dcs().init({
+
+                dcsid: "dcsu1to8wvz5bd8f6if7d3qse_2j4x"
+
+                , domain: "statse.webtrendslive.com"
+
+                , timezone: 10
+
+                , offsite: true
+
+                , download: true
+
+                , downloadtypes: "xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip"
+
+                , onsitedoms: "codecanyon.net"
+
+                , plugins: {
+
+                    hm: { src: "//s.webtrends.com/js/webtrends.hm.js" }
+
+                }
+
+            }).track();
+
+        };
+
+        marketplace.load("http://0.envato-static.com/assets/webtrends.min-5a2a0b3d9f0eeafea3f60e4831cf4958.js");
+
+    </script>
+
+    <noscript><img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs4nx9hnvz5bd4wo8cwvxpse_5g4u/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.2.0&amp;dcssip=www.3docean.net"/></noscript>
+
+    <!-- END OF SmartSource Data Collector TAG v10.2.0 -->
+
+ 
+
+    <!--[if lt IE 7]>
+
+   <script src="http://3.envato-static.com/assets/lib/DD_belatedPNG-27285c137194823d2b38f405dd132024.js" type="text/javascript"></script>
+
+   <script src="http://2.envato-static.com/assets/utilities/ie6-bf43a1fe705b18ce14da6c1e3ab8f752.js" type="text/javascript"></script>
+
+  <![endif]-->
+
+    <script type="text/javascript">if (!NREUMQ.f) {
+
+    NREUMQ.f = function () {
+
+        NREUMQ.push(["load", new Date().getTime()]);
+
+        var e = document.createElement("script");
+
+        e.type = "text/javascript";
+
+        e.src = (("http:" === document.location.protocol) ? "http:" : "https:") + "//" +
+
+          "d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";
+
+        document.body.appendChild(e);
+
+        if (NREUMQ.a) NREUMQ.a();
+
+    };
+
+    NREUMQ.a = window.onload; window.onload = NREUMQ.f;
+
+};
+
+        NREUMQ.push(["nrfj", "beacon-1.newrelic.com", "fcf8d519de", "13909,1601845,716468", "dA4NFkNbVV1URBcMRVIMTAREWFVuQlVKAFRZPhMQVEJQVEY=", 5, 37, new Date().getTime(), "", "", "", "", ""]);</script>
+
+</body>
+
+</html>

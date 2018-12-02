@@ -1,0 +1,55 @@
+  
+	   #d1
+	   {
+		   width:450px;
+		   height:550px;
+		   border-radius:8px;
+		   border-color:black;
+		   margin:20px;
+		   -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+		   background-color:rgba(255,255,255,0.1);
+		   font-family:comic san ms;
+		   color:orange;
+		   font-size:23px;
+		   padding:20px;
+		   word-break:break-all;
+		   
+           	   
+	   }
+	    
+	   	   
+	   #u1
+	   {
+		   font-variant:small-caps;
+		   font-size:19px;
+	   }
+	   
+	   .nav-pills > li.active > a
+	   {
+           background-color:rgba(0,102,255,0.7) ;
+       }
+	   
+	 
+	  
+	   .boxdiv
+	   {
+		   color:white;
+		   padding-left:20px;
+		   padding-top:20px;
+		   margin:2px
+	   }
+	   .a1
+	{
+		color:white;
+	
+	}
+	a.a1:hover
+	{
+		
+		color:black;
+	}
+	
+	
+	   
+
+	   

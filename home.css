@@ -1,0 +1,49 @@
+    #u1
+	{
+		font-variant:small-caps;
+		font-size:19px;
+	}
+	
+	#t1
+	{
+		border-collapse:separate;
+		border-spacing:5px 25px;
+		color:black;
+		width:550px;
+		margin:25px; 
+		-webkit-box-shadow:5px 5px 5px rgba(0, 0, 0, 0.3);
+	}
+
+       #td1
+      {
+               font-variant:small-caps;
+               text-align:center;
+               color:black;
+               font-size:18px;
+      }
+      #td2
+     {
+              font-variant:small-caps;
+ 	      text-align:center;
+              color:blue;
+              font-size:18px;
+      }
+
+
+	.nav-pills > li.active > a
+	{
+    background-color:rgba(0,102,255,0.7) ;
+    }
+      .a1
+      {
+              color:white;
+      }
+      a.a1:hover
+      {
+             color:black;
+      }
+img
+{
+margin-left-50px;
+padding-bottom:5px;
+}

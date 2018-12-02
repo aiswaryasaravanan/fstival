@@ -1,0 +1,41 @@
+
+  .a1
+	{
+		color:white;
+		
+	}
+	a.a1:hover
+	{
+		
+		color:black;
+	}
+td, th {
+    
+    text-align: center;
+    padding: 10px;
+	 border-bottom: 1px solid #ddd;
+}
+
+table
+{
+    border-collapse:collapse;
+	width:100%;
+    margin:25px 0 0 25px;
+	col width="100";
+	col width="50"';
+	col width="50";
+	}
+	
+th {
+    background-color: #0C4F64;
+    color: white;
+}
+tr:hover {background-color:#CDE9F1;}
+
+ #u1
+	   {
+		   font-variant:small-caps;
+		   font-size:19px;
+		   
+	   }
+	   

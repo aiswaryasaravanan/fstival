@@ -1,0 +1,77 @@
+    #u1
+	{
+		font-variant:small-caps;
+		font-size:19px;
+		color:navy;
+	}
+	
+	.nav-pills > li >a
+	   {
+		   color:navy;
+	   }
+	
+	
+	.a1
+	{
+		color:white;
+		
+	}
+	a.a1:hover
+	{
+		
+		color:black;
+	}
+	
+
+	
+
+    
+	
+	
+	
+    th 
+	{
+		color: navy;
+		font-size:18px;
+		width:100px;
+		font-variant:small-caps;
+		text-align:center;
+		padding:10px;
+    }
+	.select
+    {
+		     display: inline-block;
+			  padding: 10px;
+			  cursor: pointer;
+			  /*text-align: center;*/
+			  text-decoration: none;
+			  outline: none;
+			  color: black;
+			  background-color: rgba(128,128,128,0.1);
+			  border: none;
+			  border-radius: 5px;
+			  box-shadow: 0 9px #999;
+			  height:40px;
+			  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+			  font-variant:small-caps;
+			   font-size:16px;
+			
+    }		
+	 .select:hover
+	   {
+	        background-color:rgba(0,0,0,0.1);
+	        cursor:pointer;
+			
+			 
+	   }
+	   	   
+	 .select:active 
+	 {
+			   background-color:rgba(0,0,0,0.1);
+               box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+               transform: translateY(3px);
+	 }
+	
+
+    
+ 
